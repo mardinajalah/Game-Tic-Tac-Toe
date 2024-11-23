@@ -30,8 +30,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.hapus {
-  padding: 10px 20px;
+  cursor: pointer;
 }

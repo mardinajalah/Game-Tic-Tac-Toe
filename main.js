@@ -3,7 +3,6 @@ const player = document.getElementById("player")
 
 const textBoard = Array(9).fill(null)
 
-
 let bulat = true
 
 textBoard.map((value, i) => {
