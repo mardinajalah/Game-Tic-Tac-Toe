@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.boards {
+  border: 1px solid #fff;
+  font-size: 50px;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hapus {
+  padding: 10px 20px;
+}
